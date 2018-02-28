@@ -1,4 +1,7 @@
-# Install openssl
+# Setup and start
+    - npm install
+    - npm start
+    - For https install open ssl
 # Generate private key and csr
     - openssl req -new -newkey rsa:2048 -nodes -out mydomain.csr -keyout private.key
 # Generate crt from csr and private key
